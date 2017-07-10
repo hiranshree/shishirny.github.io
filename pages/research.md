@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-permalink: /pages/research
+permalink: ./pages/research.html
 ---
 
 ---

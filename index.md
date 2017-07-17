@@ -3,10 +3,10 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
-permalink: /index.html
+permalink: index.html
 ---
 
-![Alt text](/images/profile.jpg){:style="float: right;margin-left: 0px;margin-top: -20px;"}
+![Alt text](images/profile.jpg){:style="float: right;margin-left: 0px;margin-top: -20px;"}
 
 [CV](shishir_CV.pdf){:style="float: left;margin-left: 0px;margin-top: -30px;"} <br>
 [Google scholar](https://scholar.google.com/citations?user=is0x16gAAAAJ&hl=en){:style="float: left;margin-left: 0px;margin-top: -30px;"} <br>

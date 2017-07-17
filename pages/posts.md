@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Posts
-permalink: /pages/posts.html
+permalink: pages/posts.html
 ---
 
 

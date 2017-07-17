@@ -17,7 +17,7 @@ title: Shishir N. Y. Kolathaya
 email: (s)hishir(ny) at caltech dot edu
 description: > # this means to ignore newlines until "baseurl:"
   Use only the letters in perentheses to email me.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "." # the subpath of your site, e.g. /blog
 url: "http://www.shishirny.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: shishirny
 github_username:  shishirny
@@ -29,7 +29,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - vendor/bundle
+  - vendor
 include:
   - pages
 timezone: America/Los_Angeles

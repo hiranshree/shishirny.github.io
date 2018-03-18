@@ -1,36 +1,57 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Shishir N. Y. Kolathaya
-email: (s)hishir(ny) at caltech dot edu
-description: > # this means to ignore newlines until "baseurl:"
-  Use only the letters in perentheses to email me.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://shishirny.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: shishirny
-github_username:  shishirny
-destination: public_html
+title: Hanuman
+description: Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
+cover: assets/images/radhakrishna.jpg
+logo: assets/images/logo.png
+favicon: assets/images/favicon.png
+baseurl: "/ynursery/" # the subpath of your site, e.g. /blog/ or / for root
+url: "https://shishirny.github.io" # the base hostname & protocol for your site
+paginate:	5 # The number of posts to show per page on your homepage
+
+# Social
+facebook: facebook
+twitter: twitter
+github:  github
+
+#Additional Pages
+about: about
+contact: contact
+privacy-policy: privacy-policy
+
+
+permalink: /:title
+
+
+# Google Analytics
+analytics_id: ""
+
 # Build settings
 markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
+
+kramdown:
+  parse_block_html: true
+
+plugins:
+  - jekyll-paginate
+
+
+# Settings for rake task
+safe: False
+lsi: False
+username: shishirny #github username
+repo: shishirny.github.io #github repository
+branch: master #branch
+relative_source: ../hanuman/ #source directory
+destination: ../hanuman-pages/ #destination directory
+production_url:  https://samanyougarg.com/
+source_url:  https://github.com/samanyougarg/hanuman #source repository url
+
 exclude:
+  - README.md
+  - Rakefile
   - Gemfile
   - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
   - vendor
-include:
-  - pages
-timezone: America/Los_Angeles
+  - .travis.yml

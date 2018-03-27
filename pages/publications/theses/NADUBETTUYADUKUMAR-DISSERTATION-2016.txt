@@ -1,0 +1,6 @@
+@phdthesis{nadubettu2016input,
+  title={Input to State Stabilizing Control Lyapunov Functions for Hybrid Systems},
+  author={Nadubettu Yadukumar, Shishir},
+  year={2016},
+  school={Georgia Institute of Technology}
+}

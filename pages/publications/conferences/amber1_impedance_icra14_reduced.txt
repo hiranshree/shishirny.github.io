@@ -1,0 +1,12 @@
+@INPROCEEDINGS{6907026, 
+author={H. Zhao and S. Kolathaya and A. D. Ames}, 
+booktitle={2014 IEEE International Conference on Robotics and Automation (ICRA)}, 
+title={Quadratic programming and impedance control for transfemoral prosthesis}, 
+year={2014}, 
+volume={}, 
+number={}, 
+pages={1341-1347}, 
+keywords={Lyapunov methods;feedforward;legged locomotion;medical robotics;optimal control;prosthetics;quadratic programming;stability;AMBER robot;CLF based quadratic programming;bipedal walking;control Lyapunov function;controller stability;feedforward term;impedance control;optimal control strategy;prosthetic control;tracking performance;transfemoral prosthesis;virtual prosthesis;Impedance;Joints;Legged locomotion;Prosthetics;Robot kinematics;Torque}, 
+doi={10.1109/ICRA.2014.6907026}, 
+ISSN={1050-4729}, 
+month={May},}

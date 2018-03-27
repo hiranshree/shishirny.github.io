@@ -1,0 +1,12 @@
+@INPROCEEDINGS{7799218, 
+author={A. Hereid and S. Kolathaya and A. D. Ames}, 
+booktitle={2016 IEEE 55th Conference on Decision and Control (CDC)}, 
+title={Online optimal gait generation for bipedal walking robots using legendre pseudospectral optimization}, 
+year={2016}, 
+volume={}, 
+number={}, 
+pages={6173-6179}, 
+keywords={Legendre polynomials;feedback;legged locomotion;optimisation;robot dynamics;stability;HZD control framework;HZD gait optimization;Legendre pseudospectral optimization;bipedal walking robots;direct transcription formulation;dynamic locomotion stable control;dynamic walking;feedback controllers;global orthogonal collocation;hybrid zero dynamics control framework;nonlinear constrained optimization;online HZD gait generation;online optimal gait generation;optimal gait synthesis;planar underactuated robot;robot full body dynamics;virtual constraints;Control systems;Dynamics;Legged locomotion;Optimization;Orbits;Robot kinematics}, 
+doi={10.1109/CDC.2016.7799218}, 
+ISSN={}, 
+month={Dec},}

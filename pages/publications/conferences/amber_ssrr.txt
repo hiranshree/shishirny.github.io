@@ -1,0 +1,12 @@
+@INPROCEEDINGS{6523897, 
+author={S. Kolathaya and A. D. Ames}, 
+booktitle={2012 IEEE International Symposium on Safety, Security, and Rescue Robotics (SSRR)}, 
+title={Achieving bipedal locomotion on rough terrain through human-inspired control}, 
+year={2012}, 
+volume={}, 
+number={}, 
+pages={1-6}, 
+keywords={gait analysis;legged locomotion;nonlinear control systems;path planning;robot dynamics;ECWF;bipedal locomotion;bipedal robot AMBER;control methodology;extended canonical walking functions;human data;human like walking;human-inspired control;hybrid zero dynamics;nonlinear control methods;nonstance foot strike;robot outputs;robotic walking;rough terrain walking;sinusoidal terrain;walking gait morphs;Bipedal robotic walking;human-inspired control;rough terrain navigation}, 
+doi={10.1109/SSRR.2012.6523897}, 
+ISSN={}, 
+month={Nov},}

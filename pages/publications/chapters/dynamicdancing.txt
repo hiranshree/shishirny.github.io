@@ -1,0 +1,18 @@
+@Inbook{Kolathaya2015,
+author="Kolathaya, Shishir
+and Ma, Wen-Loong
+and Ames, Aaron D.",
+editor="Akin, H. Levent
+and Amato, Nancy M.
+and Isler, Volkan
+and van der Stappen, A. Frank",
+title="Composing Dynamical Systems to Realize Dynamic Robotic Dancing",
+bookTitle="Algorithmic Foundations of Robotics XI: Selected Contributions of the Eleventh International Workshop on the Algorithmic Foundations of Robotics",
+year="2015",
+publisher="Springer International Publishing",
+address="Cham",
+pages="425--442",
+isbn="978-3-319-16595-0",
+doi="10.1007/978-3-319-16595-0_25",
+url="https://doi.org/10.1007/978-3-319-16595-0_25"
+}

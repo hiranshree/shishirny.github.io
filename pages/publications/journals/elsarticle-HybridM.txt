@@ -1,0 +1,12 @@
+@article{KOLATHAYA2017174,
+title = "Parameter to state stability of control Lyapunov functions for hybrid system models of robots",
+journal = "Nonlinear Analysis: Hybrid Systems",
+volume = "25",
+pages = "174 - 191",
+year = "2017",
+issn = "1751-570X",
+doi = "https://doi.org/10.1016/j.nahs.2016.09.003",
+url = "http://www.sciencedirect.com/science/article/pii/S1751570X16300607",
+author = "Shishir Kolathaya and Aaron D. Ames",
+keywords = "Parameter uncertainty, Input to state stability, Hybrid systems, Control Lyapunov functions"
+}

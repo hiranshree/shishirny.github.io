@@ -1,0 +1,6 @@
+@mastersthesis{nadubettu2012bipedal,
+  title={Bipedal Robotic Walking on Flat-Ground, Up-Slope and Rough Terrain with Human-Inspired Hybrid Zero Dynamics},
+  author={Nadubettu Yadukumar, Shishir},
+  year={2012},
+  school={Texas A\&M University}
+}

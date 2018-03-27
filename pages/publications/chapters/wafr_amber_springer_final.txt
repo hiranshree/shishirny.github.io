@@ -1,0 +1,16 @@
+@InProceedings{10.1007/978-3-642-36279-8_31,
+author="Yadukumar, Shishir Nadubettu
+and Pasupuleti, Murali
+and Ames, Aaron D.",
+editor="Frazzoli, Emilio
+and Lozano-Perez, Tomas
+and Roy, Nicholas
+and Rus, Daniela",
+title="From Formal Methods to Algorithmic Implementation of Human Inspired Control on Bipedal Robots",
+booktitle="Algorithmic Foundations of Robotics X",
+year="2013",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="511--526",
+isbn="978-3-642-36279-8"
+}

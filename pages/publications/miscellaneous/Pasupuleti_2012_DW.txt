@@ -1,0 +1,6 @@
+@misc{pasupuleti2012human,
+  title={Human-Inspired Bipedal Robotic Walking: From Theory to Experimental Implementation on AMBER},
+  author={Pasupuleti, Murali and Kolathaya, Shishir and Ames, Aaron},
+  booktitle={Dynamic Walking 2012},
+  year={2012}
+}

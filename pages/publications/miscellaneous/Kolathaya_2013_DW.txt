@@ -1,0 +1,6 @@
+@misc{kolathaya2013human,
+  title={Human-Inspired Walking in AMBER 1.0 and AMBER 2.0},
+  author={Kolathaya, Shishir and Sinnet, Ryan and Ma, Wenlong and Ames, Aaron},
+  booktitle={Dynamic Walking 2013},
+  year={2013}
+}

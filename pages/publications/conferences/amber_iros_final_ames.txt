@@ -1,0 +1,12 @@
+@INPROCEEDINGS{6386182, 
+author={S. N. Yadukumar and M. Pasupuleti and A. D. Ames}, 
+booktitle={2012 IEEE/RSJ International Conference on Intelligent Robots and Systems}, 
+title={Human-inspired underactuated bipedal robotic walking with AMBER on flat-ground, up-slope and uneven terrain}, 
+year={2012}, 
+volume={}, 
+number={}, 
+pages={2478-2483}, 
+keywords={legged locomotion;stability;voltage control;AMBER;formal method;formal model;human-inspired control strategy;human-inspired underactuated bipedal robotic walking;motor;underactuated physical bipedal robot;voltage-based controller;walking stability;DC motors;Foot;Hip;Humans;Legged locomotion;Torque}, 
+doi={10.1109/IROS.2012.6386182}, 
+ISSN={2153-0858}, 
+month={Oct},}

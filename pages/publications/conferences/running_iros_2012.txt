@@ -1,0 +1,12 @@
+@INPROCEEDINGS{6386241, 
+author={Z. Huihua and S. Nadubettu Yadukumar and A. D. Ames}, 
+booktitle={2012 IEEE/RSJ International Conference on Intelligent Robots and Systems}, 
+title={Bipedal robotic running with partial hybrid zero dynamics and human-inspired optimization}, 
+year={2012}, 
+volume={}, 
+number={}, 
+pages={1821-1827}, 
+keywords={gait analysis;legged locomotion;optimisation;shock absorbers;simulation;vibration control;bipedal robotic;canonical locomotion function;human-inspired control;human-inspired optimization;human-like running;linear spring-mass-damper;partial hybrid zero dynamics;simulation;Foot;Hip;Humans;Legged locomotion;Optimization;Vectors}, 
+doi={10.1109/IROS.2012.6386241}, 
+ISSN={2153-0858}, 
+month={Oct},}

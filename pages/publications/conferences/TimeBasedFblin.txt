@@ -1,0 +1,12 @@
+@INPROCEEDINGS{7525524, 
+author={S. Kolathaya and A. Hereid and A. D. Ames}, 
+booktitle={2016 American Control Conference (ACC)}, 
+title={Time dependent control Lyapunov functions and hybrid zero dynamics for stable robotic locomotion}, 
+year={2016}, 
+volume={}, 
+number={}, 
+pages={3916-3921}, 
+keywords={Lyapunov methods;humanoid robots;legged locomotion;motion control;periodic control;robot dynamics;stability;trajectory control;DURUS;Lyapunov functions;bipedal humanoid robot;complex robotic systems;dynamic movements;exponential boundedness;hybrid dynamical systems;hybrid periodic orbits boundedness;hybrid zero dynamics;instability;sensor noise;stable robotic locomotion;stable walking;state based tracking;state-based parameterized periodic trajectories;state-based phase variable;state-based virtual constraints;sufficient conditions;time based tracking;time dependent control;walking gaits boundedness;Convergence;Humanoid robots;Legged locomotion;Lyapunov methods;Orbits;Trajectory}, 
+doi={10.1109/ACC.2016.7525524}, 
+ISSN={}, 
+month={July},}

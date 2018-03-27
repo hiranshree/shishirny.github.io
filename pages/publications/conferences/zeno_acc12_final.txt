@@ -1,0 +1,12 @@
+@INPROCEEDINGS{6315696, 
+author={S. N. Yadukumar and B. Kothapalli and A. D. Ames}, 
+booktitle={2012 American Control Conference (ACC)}, 
+title={Zeno behavior in electromechanical hybrid systems: From theory to experimental validation}, 
+year={2012}, 
+volume={}, 
+number={}, 
+pages={2437-2442}, 
+keywords={pendulums;DC motor;Zeno behavior;Zeno periodic orbit;Zeno phenomena;Zeno point;constrained motion period;direct current motor;double pendulum;electromechanical hybrid system;mechanical stop;unconstrained motion period;DC motors;Electromechanical systems;Mechanical systems;Orbits;Permanent magnet motors;Solid modeling;Vectors}, 
+doi={10.1109/ACC.2012.6315696}, 
+ISSN={0743-1619}, 
+month={June},}

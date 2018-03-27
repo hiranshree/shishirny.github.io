@@ -1,0 +1,12 @@
+@article{AMES2017155,
+title = "First steps toward formal controller synthesis for bipedal robots with experimental implementation",
+journal = "Nonlinear Analysis: Hybrid Systems",
+volume = "25",
+pages = "155 - 173",
+year = "2017",
+issn = "1751-570X",
+doi = "https://doi.org/10.1016/j.nahs.2017.01.002",
+url = "http://www.sciencedirect.com/science/article/pii/S1751570X1730002X",
+author = "Aaron D. Ames and Paulo Tabuada and Austin Jones and Wen-Loong Ma and Matthias Rungger and Bastian Schürmann and Shishir Kolathaya and Jessy W. Grizzle",
+keywords = "Hybrid systems, Formal methods, Nonlinear control, Bipedal robotics"
+}

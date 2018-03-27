@@ -1,0 +1,12 @@
+@INPROCEEDINGS{6859407, 
+author={S. Kolathaya and A. D. Ames}, 
+booktitle={2014 American Control Conference}, 
+title={Exponential convergence of a unified CLF controller for robotic systems under parameter uncertainty}, 
+year={2014}, 
+volume={}, 
+number={}, 
+pages={3710-3715}, 
+keywords={Lyapunov methods;asymptotic stability;manipulators;optimal control;parameter estimation;quadratic programming;regression analysis;base inertial parameters;control Lyapunov function;exponential convergence;exponential stability;linear equality constraints;motion equations;optimal controller;parameter estimation;parameter linearity;parameter uncertainty;quadratic program;regressor construction;robotic systems;state space augmentation;unified CLF controller;Aerospace electronics;Computational modeling;Convergence;Lyapunov methods;Mathematical model;Robots;Torque;Direct adaptive control;Identification;Mechanical systems/robotics}, 
+doi={10.1109/ACC.2014.6859407}, 
+ISSN={0743-1619}, 
+month={June},}

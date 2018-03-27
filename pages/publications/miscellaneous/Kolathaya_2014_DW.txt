@@ -1,0 +1,6 @@
+@misc{zhao2014multi,
+  title={Dynamic Multi-Contact Bipedal Robotic Walking},
+  author={Zhao, Huihua and Hereid, Ayonga and Ma, Wenlong and Kolathaya, Shishir and Ames, Aaron},
+  booktitle={Dynamic Walking 2014},
+  year={2014}
+}

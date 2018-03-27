@@ -1,0 +1,14 @@
+@article{KOLATHAYA2015377,
+title = "Parameter Sensitivity and Boundedness of Robotic Hybrid Periodic Orbits**This work is supported by the National Science Foundation through grants CNS-0953823 and CNS-1136104.",
+journal = "IFAC-PapersOnLine",
+volume = "48",
+number = "27",
+pages = "377 - 382",
+year = "2015",
+note = "Analysis and Design of Hybrid Systems ADHS",
+issn = "2405-8963",
+doi = "https://doi.org/10.1016/j.ifacol.2015.11.203",
+url = "http://www.sciencedirect.com/science/article/pii/S2405896315024611",
+author = "Shishir Kolathaya and Aaron D. Ames",
+keywords = "Hybrid Zero Dynamics, Parameter Sensitivity Measure, System Identification"
+}

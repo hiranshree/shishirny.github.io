@@ -1,0 +1,12 @@
+@ARTICLE{8405547, 
+author={S. Kolathaya and A. D. Ames}, 
+journal={IEEE Control Systems Letters}, 
+title={Input-to-State Safety With Control Barrier Functions}, 
+year={2019}, 
+volume={3}, 
+number={1}, 
+pages={108-113}, 
+keywords={Real-time systems;Robots;Safety;Sensors;Stability criteria;Uncertainty;Safety critical control;autonomous systems;barrier functions;input-to-state safety}, 
+doi={10.1109/LCSYS.2018.2853698}, 
+ISSN={}, 
+month={Jan},}

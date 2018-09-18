@@ -43,10 +43,12 @@
           
             
             
+            <a class="page-link" href="/pages/posts.html">Posts</a>
+            
           
             
             
-            <a class="page-link" href="/pages/posts.html">Posts</a>
+            <a class="page-link" href="/pages/research.html">Research</a>
             
           
             
@@ -56,7 +58,7 @@
           
             
             
-            <a class="page-link" href="/pages/research.html">Research</a>
+            <a class="page-link" href="/pages/media.html">Media</a>
             
           
             
@@ -84,29 +86,48 @@
   </header>
 
   <div class="post-content">
-    <hr />
-<hr />
-<h3 id="-current-projects"><span style="color:brown"> Current projects</span></h3>
-
-<h4 id="1-trajectory-optimization-of-a-6-dof-arm">1. Trajectory optimization of a 6-DOF arm</h4>
-
-<p>Trajectory optmization is an important part of motion/path planning methods used to realize dynamic behaviors for robotic systems. The objective of this project is to realize dynamic behaviors in a 6-DOF robotic arm. An important requirement for this goal is real-time trajectory optimization, i.e., generate new trajectories in the order of milliseconds.</p>
+    <h3 id="-current-projects"><span style="color:brown"> Current projects</span></h3>
 
 <hr />
-<h4 id="2-robust-stabilizing-controllers-for-hybrid-systems">2. Robust stabilizing controllers for hybrid systems</h4>
+<hr />
+<h4 id="1-legged-locomotion">1. Legged locomotion</h4>
 
-<p>Input-to-state stabilizing controllers can be used to overcome a wide variety of uncertainties in both continuous and hybrid systems. This is demonstrated in the humanoid robot DURUS below:</p>
+<p>RBCCPS has a custom built four legged robot (quadruped) called “Stoch”. The main goal is to explore deep-reinforcement learning algorithms to achieve a wide variety of walking behaviours. The quadruped must be able to plan and navigate over a diverse set of environments like flat plains, undulating and slippery surfaces, and also muddy terrains. See video below of our most recent walking result! Gaits were generated via D-RL based training, and then implemented via kinematic motion primitives.</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ANS3knFC7uY" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7Wcs-qGoPk0" frameborder="0" allowfullscreen=""></iframe>
+
+<!--This is mainly inspired by my father, Dr. N Yadukumar, who is himself a PhD in agronomy. His interests lie heavily in high density planting of cashew. I have been looking to adapt robotics and automation in the field of agriculture. Some of the applications are surveillance, harvesting, irrigation, tree-climbing and pollination.
+
+I have been specifically looking at the problem of tree climbing for the past one year. Here is a simulation of a simple 5-DOF system climbing a pole:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t817fpTy2W0" frameborder="0" allowfullscreen></iframe>
+-->
+<hr />
+<hr />
+<h4 id="2-learning-to-control">2. Learning to control</h4>
+
+<p>The field of “learning to control” is getting a lot of attention of late. Traditional methods of applying control involve a rigorous formal analysis of stability, convergence rates, and also stability margins for a wide variety of nonlinear dynamical systems. Unfortunately, these methods often become computationally expensive as system complexities increase. On the other hand, learning based methods have a huge advantage of using prior data to obtain seemingly simple control tasks for realizing complex behaviors in all types of systems. Therefore our objective is to explore control methodologies that take the best from both of these two approaches: Obtain control laws that not only guarantee sufficient performance and stability margins, but also are fast and simple to implement.</p>
 
 <hr />
-<h4 id="3-tree-climbing">3. Tree climbing</h4>
-
-<p>By employing Partial Hybrid Zero Dynamics we can generate efficient and optimal trajectories for the problem of pole climbing (shown below).</p>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/t817fpTy2W0" frameborder="0" allowfullscreen=""></iframe>
-
 <hr />
+<h4 id="3-safety-in-robotic-systems">3. Safety in robotic systems</h4>
+
+<p>My interests in real-time safety critical control gradually increased as I worked more and more with industrial robot arms. As we see an increasing use of robots and robotic technology around us, safety will be of critical importance. We need guaranteed margins of safety in order to create a human-friendly environment. My focus currently has been to introduce robustness in safety-critical control via the notion of input-to-state safety. This was mainly motivated from my PhD work on input-to-state stability. Follow the link below for more details:</p>
+
+<p><b>S. Kolathaya</b> and A. D. Ames.
+<b><a href="https://ieeexplore.ieee.org/document/8405547/">Input-to-State Safety With Control Barrier Functions</a>.</b>
+2018.
+<i>IEEE Control Systems Letters. Volume 3, Issue 1, Pages 108-113.</i>
+<a href="/pages/publications/journals/CBFU_color.pdf"><font color="red">.pdf</font></a>
+<a href="/pages/publications/journals/kolathaya18issfcbf.txt"><font color="green">.bib</font></a></p>
+
+<!---
+#### 2. Trajectory optimization/Path planning
+
+Trajectory optmization is an important part of motion/path planning methods used to realize dynamic behaviors for robotic systems. The objective of this project is to realize dynamic behaviors in a 6-DOF robotic arm. An important requirement for this goal is real-time trajectory optimization, i.e., generate new trajectories in the order of milliseconds.
+--->
+<hr />
+
 <hr />
 <h3 id="-past-projects-"><span style="color:brown"> Past projects </span></h3>
 
@@ -121,7 +142,11 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3XQOO6kvHFY" frameborder="0" allowfullscreen=""></iframe>
 <hr />
-<h4 id="3-amber2">3. AMBER2</h4>
+<h4 id="3-amber-series">3. AMBER Series</h4>
+
+<p>AMBER is a 5-DOF robot and has 4 actuators. AMBER used a simple linear control adaptation for tracking trajectories in each joint with the end result being stable walking on the treadmill.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RgQ8atV1NW0" frameborder="0" allowfullscreen=""></iframe>
 
 <p>AMBER2 is a 7-DOF robot with 6 actuators. This robot is unique due to the presence of feet, allowing for multi-contact locomotion with distinct heel and toe behaviors. Various motion primitives like flat-footed walking, multi-contact walking, standing, lunges, heel-lifts, toe-lifts, swinging, and also bending of knees are demonstrated in the form of dancing below:</p>
 
@@ -129,18 +154,7 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/d6oM5sLI9vA" frameborder="0" allowfullscreen=""></iframe>
 <hr />
-<h4 id="4-amber">4. AMBER</h4>
-
-<p>AMBER is a 5-DOF robot and has 4 actuators. AMBER used a simple linear control adaptation for tracking trajectories in each joint with the end result being stable walking on the treadmill.</p>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RgQ8atV1NW0" frameborder="0" allowfullscreen=""></iframe>
-
-<p>This adaptation was improved further to include motion transitions, with the end result being stable walking on rough terrain.</p>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aUiEXt8otrY" frameborder="0" allowfullscreen=""></iframe>
-
-<hr />
-<h4 id="5-loop-finder">5. Loop finder</h4>
+<h4 id="4-loop-finder">4. Loop finder</h4>
 
 <p>This was my undergraduate project worked in collaboration with Ravi Lanka, in which the robot scans a set of loops and locates the smallest one in the end.</p>
 

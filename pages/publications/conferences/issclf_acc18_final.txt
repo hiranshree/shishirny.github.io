@@ -1,11 +1,12 @@
 @INPROCEEDINGS{acc18_issclf, 
 author={S. Kolathaya and J. Reher and A. Hereid and A. D. Ames}, 
-booktitle={2018 American Control Conference, to appear}, 
+booktitle={2018 Annual American Control Conference (ACC)}, 
 title={Input to State Stabilizing Control Lyapunov Functions for Robust Bipedal Robotic Locomotion}, 
 year={2018}, 
 volume={}, 
 number={}, 
-pages={}, 
-doi={}, 
-ISSN={}, 
-month={Jun},}
+pages={2224-2230}, 
+keywords={asymptotic stability;legged locomotion;Lyapunov methods;robust control;bipedal robotic walking;hybrid periodic orbits;robust bipedal robotic locomotion;exponential stabilizing control;Input to State Stabilizing Control Lyapunov Functions;input to state stability properties;Lyapunov methods;Legged locomotion;Stability analysis;Orbits;Control systems;Robot sensing systems}, 
+doi={10.23919/ACC.2018.8430946}, 
+ISSN={2378-5861}, 
+month={June},}

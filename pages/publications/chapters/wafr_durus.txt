@@ -1,0 +1,4 @@
+@inproceedings{reher2016algorithmic,
+  title={Algorithmic foundations of realizing multi-contact locomotion on the humanoid robot DURUS},
+  author={Reher, Jacob P and Hereid, Ayonga and Kolathaya, Shishir and Hubicki, Christian M and Ames, Aaron D}
+}

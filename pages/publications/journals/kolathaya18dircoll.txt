@@ -1,0 +1,12 @@
+@ARTICLE{8410040, 
+author={S. Kolathaya and W. Guffey and R. W. Sinnet and A. D. Ames}, 
+journal={IEEE Robotics and Automation Letters}, 
+title={Direct Collocation for Dynamic Behaviors With Nonprehensile Contacts: Application to Flipping Burgers}, 
+year={2018}, 
+volume={3}, 
+number={4}, 
+pages={3677-3684}, 
+keywords={Robots;Task analysis;Friction;Acceleration;Trajectory optimization;Trajectory optimization;dynamic motion planning;nonprehensile contacts;manipulation planning}, 
+doi={10.1109/LRA.2018.2854910}, 
+ISSN={2377-3766}, 
+month={Oct},}

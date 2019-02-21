@@ -104,20 +104,34 @@
 
 <p>I am an INSPIRE Faculty fellow in the Robert Bosch Center for Cyber Physical Systems (RBCCPS) in IISc Bangalore. I received my Ph.D. degree in Mechanical Engineering (2016) from the Georgia Institute of Technology. <!--, M.S. degree in Electrical Engineering (2012) from Texas A&M University. I received my B.Tech. degree in Electrical Engineering (2008) from the National Institute of Technology Karnataka, Surathkal, India. Prior to pursuing Master's degree, I worked as a board designer in Tejas Networks Ltd. Bangalore from 2008-2010. -->
 <!-- # Interests -->
- I am interested in stability and control of nonlinear hybrid systems, especially in the domain of legged robots. I have worked with robots like <a href="https://youtu.be/RgQ8atV1NW0">AMBER1</a>, <a href="https://youtu.be/IwR9XvojXWo">AMBER2</a>, <a href="https://youtu.be/3XQOO6kvHFY">DURUS-2D</a>, and <a href="https://youtu.be/1fC7b2LjVW4">DURUS</a>. I currently have following major activities:</p>
+ I started my career in the field of robotics, especially in the domain of legged robots. I have worked with robots like <a href="https://youtu.be/RgQ8atV1NW0">AMBER1</a>, <a href="https://youtu.be/IwR9XvojXWo">AMBER2</a>, <a href="https://youtu.be/3XQOO6kvHFY">DURUS-2D</a>, and <a href="https://youtu.be/1fC7b2LjVW4">DURUS</a>. My primary focus as a PhD student was on stability and control of walking robots. I have diversified to other fields like safety-critical control, and deep reinforcement learning for all kinds of robotic platforms. I currently have following major activities:</p>
 
 <ol>
 
 <li>
 
-I have been recently exposed to safety-critical control in all kinds of robotic platforms. <b>Control barrier functions (CBFs)</b> have proved to be extremely effective in real-time QP based controllers. I am currently focusing on introducing some notion of robustness for these safegaurding controllers. The notion of robustness for safety is still in its nascent stages. Watch the video below where a tunable gain (epsilon) is varied to make the drone more and more conservative in safety.
+I have been recently exposed to safety-critical control in all kinds of robotic platforms. <b>Control barrier functions (CBFs)</b> have proved to be extremely effective in real-time QP based controllers. I am currently focusing on introducing some notion of robustness for these safegaurding controllers. The notion of robustness for safety is still in its nascent stages. Watch the video below where a tunable gain (epsilon) is varied to make the drone more and more conservative in terms of safety.
 </li>
 <p></p>
 <!--<p style="text-indent: 1.9em;">  <iframe width="400" height="225" src="https://www.youtube.com/embed/ag2trd0mCmw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>-->
 <iframe width="400" height="225" src="https://www.youtube.com/embed/ag2trd0mCmw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
 <p></p>
 
-The brown square indicates the "safe" region, and the destination is outside this region. Due to GPS estimation errors, the drone overshoots from the boundary. Therefore, the goal of the controller is to take corrective actions to overcome this overshoot.
+The brown square indicates the "safe" region, and the destination is outside this region. Due to GPS estimation errors, the drone overshoots away from the boundary, thereby making it unsafe. We have robustified the controller to overcome this overshoot via the notion of <b>input-to-state safety</b>. More details are in this letter:
+
+<p>
+</p>
+<p>
+</p>
+<p>
+<b>S. Kolathaya</b> and A. D. Ames.
+<b><a href="https://ieeexplore.ieee.org/document/8405547/">Input-to-State Safety With Control Barrier Functions</a>.</b>
+2018.
+<i>IEEE Control Systems Letters. Volume 3, Issue 1, Pages 108-113.</i>
+<a href="/pages/publications/journals/CBFU_color.pdf"><font color="red">.pdf</font></a> 
+<a href="/pages/publications/journals/kolathaya18issfcbf.txt"><font color="green">.bib</font></a>
+</p>
+
 <li>
 
 Deep learning is getting a lot of attention of late. I am currently in the phase of understanding <b>deep reinforcement learning (D-RL)</b> and see how it can be applied to legged robots. This is in collaboration with Dr. Bharadwaj Amrutur, Dr. Shalabh Bhatnagar and Dr. Ashitava Ghosal in the center. See video below of our most recent walking result! Gaits were generated via D-RL based training, and then implemented via kinematic motion primitives. 
@@ -126,12 +140,42 @@ Deep learning is getting a lot of attention of late. I am currently in the phase
 <iframe width="400" height="225" src="https://www.youtube.com/embed/swcStUm0Nuk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
 <p></p>
 
+More details are in this paper:
+<p>
+</p>
+<p>
+</p>
+<p>
+Abhik Singla, Shounak Bhattacharya, Dhaivat Dholakiya, Shalabh Bhatnagar, Ashitava Ghosal, Bharadwaj Amrutur and <b>S. Kolathaya</b>.
+<b><a href="https://arxiv.org/abs/1810.03842">Realizing Learned Quadruped Locomotion Behaviors through Kinematic Motion Primitives</a>.</b>
+2019.
+<i>in IEEE International Conference on Robotics and Automation.</i>
+<a href="https://arxiv.org/pdf/1810.03842.pdf"><font color="red">.pdf</font></a> 
+<a href="https://www.youtube.com/watch?v=kiLKSqI4KhE"><font color="green">.video</font></a>
+</p>
+
+
 <li>
 I am interested both in theoretical and practical aspects of hybrid robotic systems. My PhD dissertation was about bridging the gap between theory and experiment by using <b>input-to-state stabilizing control Lyapunov functions (ISS-CLFs)</b>. I am looking to extend it for various other robotic platforms and also develop novel robust controllers based on this idea.
 </li>
 <p></p>
 <iframe width="400" height="225" src="https://www.youtube.com/embed/g5HlzXRhcSQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
 <p></p>
+More details are in this paper:
+<p>
+</p>
+<p>
+</p>
+<p>
+<b>S. Kolathaya</b> and J. Reher and A. Hereid and A. D. Ames.
+<b><a href="https://ieeexplore.ieee.org/document/8430946/">Input to State Stabilizing Control Lyapunov Functions for Robust Bipedal Robotic Locomotion</a>.</b>
+2018.
+in <i>2018 American Control Conference (ACC),</i> pages 2224-2230.
+<a href="/pages/publications/conferences/issclf_acc18_final.pdf"><font color="red">.pdf</font></a> 
+<a href="/pages/publications/conferences/issclf_acc18_final.txt"><font color="green">.bib</font></a>
+<a href="https://youtu.be/g5HlzXRhcSQ"><font color="purple">.video</font></a>
+</p>
+ 
 
 </ol>
 
@@ -139,27 +183,6 @@ I am interested both in theoretical and practical aspects of hybrid robotic syst
 # Current research
  I am currently working on using the Input to State Stability criterion to design robust Control Lyapunov Functions and Control Barrier Functions for hybrid systems (bipedal locomotion in particular). It can be split into three parts a) Reduce an uncertain system into an input/output system. What is considered a natural extension of viewing the functions of the uncertainty (modeling, model parameter, measurement) as inputs to a system, my work consists of reducing this form to ISS Lyapunov (barrier) functions and establishing the ultimate bounds on the outputs of the hybrid system, as functions of input uncertainty. b) Construct Control Lyapunov Functions (CLF) and Control Barrier Functions (CBF), that yield lower ultimate bounds and higher convergence rates to these bounds. c) Demonstrate these control functions by realizing sustainable walking and running experimentally.
 -->
-
-<h1 id="select-publications">Select publications</h1>
-
-<p>This was one of my first publications that appeared as a chapter in Springer.</p>
-
-<p><b>S. N. Yadukumar Kolathaya</b> and M. Pasupuleti and A. D. Ames.
-<b><a href="https://link.springer.com/chapter/10.1007/978-3-642-36279-8_31">From Formal Methods to Algorithmic Implementation of Human Inspired Control on Bipedal Robots</a>.</b>
-2013.
-Chapter in <i>Algorithmic Foundations of Robotics X.</i>
-<a href="/pages/publications/chapters/wafr_amber_springer_final.pdf"><font color="red">.pdf</font></a>
-<a href="/pages/publications/chapters/wafr_amber_springer_final.txt"><font color="green">.bib</font></a>
-<a href="https://youtu.be/RgQ8atV1NW0"><font color="purple">.video</font></a></p>
-
-<p>This is my most recent publication, which is about how to define the notion of input-to-state safety in nonlinear systems:</p>
-
-<p><b>S. Kolathaya</b> and A. D. Ames.
-<b><a href="https://ieeexplore.ieee.org/document/8405547/">Input-to-State Safety With Control Barrier Functions</a>.</b>
-2018.
-<i>IEEE Control Systems Letters. Volume 3, Issue 1, Pages 108-113.</i>
-<a href="/pages/publications/journals/CBFU_color.pdf"><font color="red">.pdf</font></a>
-<a href="/pages/publications/journals/kolathaya18issfcbf.txt"><font color="green">.bib</font></a></p>
 
 
   </div>

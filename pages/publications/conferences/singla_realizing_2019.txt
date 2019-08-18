@@ -1,0 +1,12 @@
+@INPROCEEDINGS{singla_realizing_2019, 
+author={A. {Singla} and S. {Bhattacharya} and D. {Dholakiya} and S. {Bhatnagar} and A. {Ghosal} and B. {Amrutur} and S. {Kolathaya}}, 
+booktitle={2019 International Conference on Robotics and Automation (ICRA)}, 
+title={Realizing Learned Quadruped Locomotion Behaviors through Kinematic Motion Primitives}, 
+year={2019}, 
+volume={}, 
+number={}, 
+pages={7434-7440}, 
+keywords={Legged locomotion;Trajectory;Computational modeling;Kinematics;Optimization;Training}, 
+doi={10.1109/ICRA.2019.8794179}, 
+ISSN={2577-087X}, 
+month={May},}

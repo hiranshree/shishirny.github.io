@@ -1,0 +1,6 @@
+@INPROCEEDINGS{kolathaya_roman, 
+author={S. Kolathaya and A. Joglekar and S. Shetty and D. Dholakiya and Abhimanyu and A. Sagi and S. Bhattacharya and A. Singla and S. Bhatnagar and A. Ghoshal and B. Amrutur}, 
+booktitle={28th IEEE International Conference on Robot \& Human Interactive Communication (RO-MAN)}, 
+title={Trajectory based Deep Policy Search for Quadrupedal Walking}, 
+year={2019}, 
+month={10},}

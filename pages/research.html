@@ -88,13 +88,27 @@
   <div class="post-content">
     <h3 id="-current-projects"><span style="color:brown"> Current projects</span></h3>
 
-<hr />
-<hr />
-<hr />
-<hr />
-<h4 id="1-safety-in-robotic-systems">1. Safety in robotic systems</h4>
+<p>All of my research interests are centered around robotic systems, be it control or learning or optimization. Following are my major interests currently:</p>
 
-<p>My interests in real-time safety critical control gradually increased as I worked more and more with industrial robot arms. As we see an increasing use of robots and robotic technology around us, safety will be of critical importance. We need guaranteed margins of safety in order to create a human-friendly environment. My focus currently has been to introduce robustness in safety-critical control via the notion of input-to-state safety. This was mainly motivated from my PhD work on input-to-state stability. Follow the link below for more details:</p>
+<hr />
+<hr />
+<hr />
+<hr />
+
+<h4 id="1-safety-critical-control">1. Safety-critical control</h4>
+
+<p>My interests in real-time safety-critical control gradually grew as I worked more and more with industrial
+robot arms. As we see an increasing use of robots and robotic technology around us, safety will be of critical
+importance. We need guaranteed margins of safety in order to create a human-friendly environment. 
+<b>Control barrier functions (CBFs)</b> have proved to be extremely effective in real-time QP based controllers. I am currently focusing on introducing some notion of robustness for these safeguarding controllers. The notion of robustness for safety is still in its nascent stages.</p>
+
+<p>Watch the video below where a tunable gain (epsilon) is varied to make the drone more and more conservative in terms of safety.</p>
+<p></p>
+<!--<p style="text-indent: 1.9em;">  <iframe width="400" height="225" src="https://www.youtube.com/embed/ag2trd0mCmw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>-->
+<iframe width="400" height="225" src="https://www.youtube.com/embed/ag2trd0mCmw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+<p></p>
+
+<p>The brown square indicates the “safe” region, but the destination is outside this region. Since safety takes precedence, the drone is expected to stay inside the square. Due to GPS estimation errors, the drone overshoots away from the boundary, thereby making it unsafe. We have robustified the controller to overcome this overshoot via the notion of <b>input-to-state safety</b>. More details are in this letter:</p>
 
 <p><b>S. Kolathaya</b> and A. D. Ames.
 <b><a href="https://ieeexplore.ieee.org/document/8405547/">Input-to-State Safety With Control Barrier Functions</a>.</b>
@@ -109,46 +123,64 @@
 <hr />
 <h4 id="2-legged-locomotion">2. Legged locomotion</h4>
 
-<p>RBCCPS has a custom built four legged robot (quadruped) called “Stoch”. The main goal is to explore deep-reinforcement learning algorithms to achieve a wide variety of walking behaviours. The quadruped must be able to plan and navigate over a diverse set of environments like flat plains, undulating and slippery surfaces, and also muddy terrains. See video below of our most recent walking result! Gaits were generated via D-RL based training, and then implemented via kinematic motion primitives.</p>
+<p>RBCCPS has a custom built four legged robot (quadruped) called the “Stoch”. The main goal is to explore reinforcement learning algorithms to achieve a wide variety of walking behaviours. The quadruped must be able to plan and navigate over a diverse set of environments like flat plains, undulating and slippery surfaces, and also muddy terrains.  This is in collaboration with Dr. Bharadwaj Amrutur, Dr. Shalabh Bhatnagar and Dr. Ashitava Ghosal in the center. See videos below of our most recent walking result!</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/swcStUm0Nuk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+<p></p>
+<iframe width="400" height="225" src="https://www.youtube.com/embed/swcStUm0Nuk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p></p>
 
+<p></p>
+<iframe width="400" height="225" src="https://www.youtube.com/embed/AxMeGESpuvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p></p>
+
+<p>More details are in these papers:</p>
+<p>
+</p>
+<p>
+</p>
+<p>
+A. Singla and S. Bhattacharya and D. Dholakiya and S. Bhatnagar and A. Ghosal and B. Amrutur and <b>S. Kolathaya</b>.
+<b><a href="https://ieeexplore.ieee.org/document/8794179/">Realizing Learned Quadruped Locomotion Behaviors through Kinematic Motion Primitives</a>.</b>
+2019.
+<i>in IEEE International Conference on Robotics and Automation.</i><br />
+<a href="https://arxiv.org/pdf/1810.03842.pdf"><font color="red">.pdf</font></a> 
+<a href="/pages/publications/conferences/singla_realizing_2019.txt"><font color="green">.bib</font></a>
+</p>
+<p>
+<b>S. Kolathaya</b> et. al.
+<b><a href="/pages/publications/conferences/">Trajectory based Deep Policy Search for Quadrupedal Walking</a>.</b>
+2019.
+<i>in 28th IEEE International Conference on Robot &amp; Human Interactive Communication (RO-MAN).</i><br />
+<a href="/pages/publications/conferences/TrajectorySearch_Ro_Man.pdf"><font color="red">.pdf</font></a> 
+</p>
+
+<hr />
+<hr />
+<hr />
+<hr />
+
+<h4 id="3-hybrid-systems">3. Hybrid systems</h4>
+
+<p>I am interested both in theoretical and practical aspects of hybrid robotic systems. My PhD dissertation was about bridging the gap between theory and experiment by using <b>input-to-state stabilizing control Lyapunov functions (ISS-CLFs)</b>. Watch the video below, where the ISS-CLFs were used to reject external disturbances like pushing:</p>
+
+<iframe width="400" height="225" src="https://www.youtube.com/embed/g5HlzXRhcSQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+<p></p>
 <p>More details are in this paper:</p>
 <p>
 </p>
 <p>
 </p>
 <p>
-Abhik Singla, Shounak Bhattacharya, Dhaivat Dholakiya, Shalabh Bhatnagar, Ashitava Ghosal, Bharadwaj Amrutur and <b>S. Kolathaya</b>.
-<b><a href="https://arxiv.org/abs/1810.03842">Realizing Learned Quadruped Locomotion Behaviors through Kinematic Motion Primitives</a>.</b>
-2019.
-<i>in IEEE International Conference on Robotics and Automation.</i>
-<a href="https://arxiv.org/pdf/1810.03842.pdf"><font color="red">.pdf</font></a> 
-<a href="https://www.youtube.com/watch?v=kiLKSqI4KhE"><font color="green">.video</font></a>
+<b>S. Kolathaya</b> and J. Reher and A. Hereid and A. D. Ames.
+<b><a href="https://ieeexplore.ieee.org/document/8430946/">Input to State Stabilizing Control Lyapunov Functions for Robust Bipedal Robotic Locomotion</a>.</b>
+2018.
+in <i>2018 American Control Conference (ACC),</i> pages 2224-2230.
+<a href="/pages/publications/conferences/issclf_acc18_final.pdf"><font color="red">.pdf</font></a> 
+<a href="/pages/publications/conferences/issclf_acc18_final.txt"><font color="green">.bib</font></a>
+<a href="https://youtu.be/g5HlzXRhcSQ"><font color="purple">.video</font></a>
 </p>
 
-<!--This is mainly inspired by my father, Dr. N Yadukumar, who is himself a PhD in agronomy. His interests lie heavily in high density planting of cashew. I have been looking to adapt robotics and automation in the field of agriculture. Some of the applications are surveillance, harvesting, irrigation, tree-climbing and pollination.
-
-I have been specifically looking at the problem of tree climbing for the past one year. Here is a simulation of a simple 5-DOF system climbing a pole:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/t817fpTy2W0" frameborder="0" allowfullscreen></iframe>
--->
-<!--#### 3. Learning to control
-
-Traditional methods of applying control involve a rigorous formal analysis of stability, convergence rates, and also stability margins for a wide variety of nonlinear dynamical systems. Unfortunately, these methods often become computationally expensive as system complexities increase. On the other hand, learning based methods have a huge advantage of using prior data to obtain seemingly simple control tasks for realizing complex behaviors in all types of systems. Therefore our objective is to explore control methodologies that take the best from both of these two approaches: Obtain control laws that not only guarantee sufficient performance and stability margins, but also are fast and simple to implement.
--->
-
-<hr />
-<hr />
-<hr />
-
-<!---
-#### 2. Trajectory optimization/Path planning
-
-Trajectory optmization is an important part of motion/path planning methods used to realize dynamic behaviors for robotic systems. The objective of this project is to realize dynamic behaviors in a 6-DOF robotic arm. An important requirement for this goal is real-time trajectory optimization, i.e., generate new trajectories in the order of milliseconds.
---->
-<hr />
-
+<p>I am looking to extend it for various other robotic platforms and also develop novel robust controllers based on this idea.</p>
 
   </div>
 

@@ -1,0 +1,12 @@
+@INPROCEEDINGS{dholakiya_iccar_stoch_2019,
+author={D. {Dholakiya} and S. {Bhattacharya} and A. {Gunalan} and A. {Singla} and S. {Bhatnagar} and B. {Amrutur} and A. {Ghosal} and S. {Kolathaya}},
+booktitle={2019 5th International Conference on Control, Automation and Robotics (ICCAR)},
+title={Design, Development and Experimental Realization of A Quadrupedal Research Platform: Stoch},
+year={2019},
+volume={},
+number={},
+pages={229-234},
+keywords={control system synthesis;gait analysis;legged locomotion;robust control;quadrupedal research platform;Stoch;hardware design;control architecture;legged locomotion;trot-to-bound behaviors;rapid prototyping;quadruped robot;gait transitions;trot-to-turn behaviors;quadrupedal robot;legged locomotion;robot design},
+doi={10.1109/ICCAR.2019.8813480},
+ISSN={2251-2446},
+month={April},}

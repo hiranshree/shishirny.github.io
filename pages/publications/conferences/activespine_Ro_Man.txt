@@ -1,0 +1,12 @@
+@INPROCEEDINGS{8956332,
+author={S. {Bhattacharya} and A. {Singla} and {Abhimanyu} and D. {Dholakiya} and S. {Bhatnagar} and B. {Amrutur} and A. {Ghosal} and S. {Kolathaya}},
+booktitle={2019 28th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)},
+title={Learning Active Spine Behaviors for Dynamic and Efficient Locomotion in Quadruped Robots},
+year={2019},
+volume={},
+number={},
+pages={1-6},
+keywords={Deep-RL;Quadruped;Active spine},
+doi={10.1109/RO-MAN46459.2019.8956332},
+ISSN={1944-9445},
+month={Oct},}

@@ -1,0 +1,13 @@
+@article{KOLATHAYA2020108841,
+title = "Local stability of PD controlled bipedal walking robots",
+journal = "Automatica",
+volume = "114",
+pages = "108841",
+year = "2020",
+issn = "0005-1098",
+doi = "https://doi.org/10.1016/j.automatica.2020.108841",
+url = "http://www.sciencedirect.com/science/article/pii/S000510982030039X",
+author = "Shishir Kolathaya",
+keywords = "PD controllers, Walking, Robotics, Periodic motion",
+abstract = "We establish stability results for PD tracking control laws in bipedal walking robots. Stability of PD control laws for continuous robotic systems is an established result, and we extend this for hybrid robotic systems, an alternating sequence of continuous and discrete events. Bipedal robots have the leg-swing as the continuous event, and the foot-strike as the discrete event. In addition, bipeds largely have underactuations due to the interactions between feet and ground. For each continuous event, we establish that the convergence rate of the tracking error can be regulated via appropriate tuning of the PD gains; and for each discrete event, we establish that this convergence rate sufficiently overcomes the nonlinear impacts by assumptions on the hybrid zero dynamics. The main contributions are (1) Extension of the stability results of PD control laws for underactuated robotic systems, and (2) Exponential ultimate boundedness of hybrid periodic orbits under the assumption of exponential stability of their projections to the hybrid zero dynamics. Towards the end, we will validate these results in a 2-link bipedal walker in simulation."
+}

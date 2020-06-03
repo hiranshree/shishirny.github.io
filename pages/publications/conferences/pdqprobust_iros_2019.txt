@@ -1,0 +1,2 @@
+
+@INPROCEEDINGS{kolathaya2019qp, author={S. {Kolathaya} and S. {Veer}}, booktitle={2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, title={PD based Robust Quadratic Programs for Robotic Systems}, year={2019}, volume={}, number={}, pages={6834-6841},}

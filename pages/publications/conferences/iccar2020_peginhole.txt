@@ -1,0 +1,8 @@
+@INPROCEEDINGS{9108072,
+  author={S. {Gubbi} and S. {Kolathaya} and B. {Amrutur}},
+  booktitle={2020 6th International Conference on Control, Automation and Robotics (ICCAR)}, 
+  title={Imitation Learning for High Precision Peg-in-Hole Tasks}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={368-372},}

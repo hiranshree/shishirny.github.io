@@ -1,0 +1,13 @@
+@ARTICLE{9129782,
+  author={S. {Kolathaya}},
+  journal={IEEE Control Systems Letters}, 
+  title={PD Tracking for a Class of Underactuated Robotic Systems With Kinetic Symmetry}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-1},
+  abstract={In this paperletter, we study stability properties of Proportional-Derivative (PD) controlled underactuated robotic systems for trajectory tracking applications. Stability of PD control laws for fully actuated systems is an established result, and we extend it for the class of underactuated robotic systems. We will first show some well known examples where PD tracking control laws do not yield tracking; some of which can even lead to instability. We will then show that for a subclass of robotic systems, PD tracking control laws, indeed, yield desirable tracking guarantees. We will show that for a specified time interval, and for sufficiently large enough PD gains (input saturations permitting), local boundedness of the tracking error can be guaranteed. In addition, for a class of systems with the kinetic symmetry property, stronger conditions like desirable convergence rates and bounds can be guaranteed. This class is not restrictive and includes robots like the acrobot, the cart-pole, and the inertia-wheel pendulums. Towards the end, we will provide necessary simulation results in support of the theoretical guarantees presented.},
+  keywords={PD control;underactuated robotics;kinetic symmetry.},
+  doi={10.1109/LCSYS.2020.3005957},
+  ISSN={2475-1456},
+  month={},}

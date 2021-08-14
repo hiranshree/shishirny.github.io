@@ -1,0 +1,1 @@
+@ARTICLE{singletary_safety_2021,  author={Singletary, Andrew and Kolathaya, Shishir and Ames, Aaron D.},  journal={IEEE Control Systems Letters},   title={Safety-Critical Kinematic Control of Robotic Systems},   year={2022},  volume={6},  number={},  pages={139-144},  doi={10.1109/LCSYS.2021.3050609}}

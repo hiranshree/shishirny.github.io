@@ -1,0 +1,10 @@
+@INPROCEEDINGS{9838184,
+  author={Choudhary, Yogita and Kolathaya, Shishir},
+  booktitle={2022 European Control Conference (ECC)}, 
+  title={Energy based Control Barrier functions for Robotic Manipulators with Large Safety Constraints}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1328-1335},
+  doi={10.23919/ECC55457.2022.9838184}}
+

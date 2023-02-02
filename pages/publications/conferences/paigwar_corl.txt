@@ -1,0 +1,17 @@
+
+@InProceedings{pmlr-v155-paigwar21a,
+  title = 	 {Robust Quadrupedal Locomotion on Sloped Terrains: A Linear Policy Approach},
+  author =       {Paigwar, Kartik and Krishna, Lokesh and tirumala, sashank and khetan, naman and varma, aditya and joglekar, ashish and Bhatnagar, Shalabh and Ghosal, Ashitava and Amrutur, Bharadwaj and Kolathaya, Shishir},
+  booktitle = 	 {Proceedings of the 2020 Conference on Robot Learning},
+  pages = 	 {2257--2267},
+  year = 	 {2021},
+  editor = 	 {Kober, Jens and Ramos, Fabio and Tomlin, Claire},
+  volume = 	 {155},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {16--18 Nov},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v155/paigwar21a/paigwar21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v155/paigwar21a.html},
+  abstract = 	 {In this paper, with a view toward fast deployment of locomotion gaits in low-cost hardware, we use a linear policy for realizing end-foot trajectories in the quadruped robot, Stoch 2. In particular, the parameters of the end-foot trajectories are shaped via a linear feedback policy that takes the torso orientation and the terrain slope as inputs. The corresponding desired joint angles are obtained via an inverse kinematics solver and tracked via a PID control law. Augmented Random Search, a model-free and a gradient-free learning algorithm is used to train this linear policy. Simulation results show that the resulting walking is robust to terrain slope variations and external pushes. This methodology is not only computationally light-weight but also uses minimal sensing and actuation capabilities in the robot, thereby justifying the approach.}
+}
+

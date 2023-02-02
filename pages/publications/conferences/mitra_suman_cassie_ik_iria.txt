@@ -1,0 +1,10 @@
+@INPROCEEDINGS{9588698,
+  author={Mitra, Mukund and Raj, Suman and Kolathaya, Shishir},
+  booktitle={2021 International Symposium of Asian Control Association on Intelligent Robotics and Industrial Automation (IRIA)}, 
+  title={Inverse Kinematics Analysis of Cassie Robot using Radial Basis Function Networks}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={351-356},
+  doi={10.1109/IRIA53009.2021.9588698}}
+

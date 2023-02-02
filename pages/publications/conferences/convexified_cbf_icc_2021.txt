@@ -1,0 +1,10 @@
+@INPROCEEDINGS{9703149,
+  author={P., Varun V. and Vinod, Abraham P. and Kolathaya, Shishir},
+  booktitle={2021 Seventh Indian Control Conference (ICC)}, 
+  title={Motion Planning With Dynamic Obstacles Using Convexified Control Barrier Functions}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={81-86},
+  doi={10.1109/ICC54714.2021.9703149}}
+

@@ -1,0 +1,10 @@
+@INPROCEEDINGS{9812089,
+  author={Mishra, Utkarsh A. and Samineni, Soumya R. and Goel, Prakhar and Kunjeti, Chandravaran and Lodha, Himanshu and Singh, Aman and Sagi, Aditya and Bhatnagar, Shalabh and Kolathaya, Shishir},
+  booktitle={2022 International Conference on Robotics and Automation (ICRA)}, 
+  title={Dynamic Mirror Descent based Model Predictive Control for Accelerating Robot Learning}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1631-1637},
+  doi={10.1109/ICRA46639.2022.9812089}}
+

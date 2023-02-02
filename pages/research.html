@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
+<html lang="en"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,69 +13,22 @@
   
   
 </head>
+<body><header class="site-header" role="banner">
 
-
-  <body>
-
-    <header class="site-header" role="banner">
-
-  <div class="wrapper">
-    
-    
-    <a class="site-title" href="/">Shishir N. Y. Kolathaya</a>
-  
-    
-      <nav class="site-nav">
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Shishir N. Y. Kolathaya</a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
             <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
             </svg>
           </span>
         </label>
 
-        <div class="trigger">
-          
-            
-            
-            <a class="page-link" href="/pages/research.html">Research</a>
-            
-          
-            
-            
-            <a class="page-link" href="/pages/publications.html">Publications</a>
-            
-          
-            
-            
-            <a class="page-link" href="/pages/apply.html">Apply</a>
-            
-          
-            
-            
-            <a class="page-link" href="/pages/media.html">Miscellaneous</a>
-            
-          
-            
-            
-          
-            
-            
-          
-            
-            
-          
-        </div>
-      </nav>
-    
-  </div>
+        <div class="trigger"><a class="page-link" href="/pages/research.html">Research</a><a class="page-link" href="/pages/publications.html">Publications</a><a class="page-link" href="/pages/apply.html">Apply</a><a class="page-link" href="/pages/media.html">Miscellaneous</a></div>
+      </nav></div>
 </header>
-
-
-    <main class="page-content" aria-label="Content">
+<main class="page-content" aria-label="Content">
       <div class="wrapper">
         <article class="post">
 
@@ -92,86 +43,93 @@
 
 <p><img src="/images/research.png" alt="image" style="float: center;margin-left: 0px;margin-top: 0px;" /></p>
 
-<p>Following are the major directions currently:</p>
+<p>Follow the lab webpage for our latest research upates: <a href="https://www.stochlab.com/">LINK</a></p>
 
-<h4 id="1-safety-critical-control-of-cyber-physical-systems">1. Safety-critical control of cyber-physical systems</h4>
+<!--
 
-<p>My interests in real-time safety-critical control gradually grew as I worked more and more with industrial
+#### 1. Safety-critical control of cyber-physical systems
+
+My interests in real-time safety-critical control gradually grew as I worked more and more with industrial
 robot arms. As we see an increasing use of robots and robotic technology around us, safety will be of critical
 importance. We need guaranteed margins of safety in order to create a human-friendly environment. 
-<b>Control barrier functions (CBFs)</b> have proved to be extremely effective in real-time QP based controllers. I am currently focusing on introducing some notion of robustness for these safeguarding controllers. The notion of robustness for safety is still in its nascent stages.</p>
+<b>Control barrier functions (CBFs)</b> have proved to be extremely effective in real-time QP based controllers. I am currently focusing on introducing some notion of robustness for these safeguarding controllers. The notion of robustness for safety is still in its nascent stages. 
 
-<p>Watch the video below where a tunable gain (epsilon) is varied to make the drone more and more conservative in terms of safety.</p>
-<p></p>
-<!--<p style="text-indent: 1.9em;">  <iframe width="400" height="225" src="https://www.youtube.com/embed/ag2trd0mCmw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>-->
-<iframe width="400" height="225" src="https://www.youtube.com/embed/ag2trd0mCmw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+Watch the video below where a tunable gain (epsilon) is varied to make the drone more and more conservative in terms of safety.
 <p></p>
 
-<p>The brown square indicates the “safe” region, but the destination is outside this region. Since safety takes precedence, the drone is expected to stay inside the square. Due to GPS estimation errors, the drone overshoots away from the boundary, thereby making it unsafe. We have robustified the controller to overcome this overshoot via the notion of <b>input-to-state safety</b>. More details are in this letter:</p>
+<iframe width="400" height="225" src="https://www.youtube.com/embed/ag2trd0mCmw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<p></p>
+
+The brown square indicates the "safe" region, but the destination is outside this region. Since safety takes precedence, the drone is expected to stay inside the square. Due to GPS estimation errors, the drone overshoots away from the boundary, thereby making it unsafe. We have robustified the controller to overcome this overshoot via the notion of <b>input-to-state safety</b>. More details are in this letter:
 
 <li>
- <b>S. Kolathaya</b> and A. D. Ames.<br />
-<b><a href="https://ieeexplore.ieee.org/document/8405547/">Input-to-State Safety With Control Barrier Functions</a>.</b>
+ <B>S. Kolathaya</B> and A. D. Ames.<br>
+<B><A HREF="https://ieeexplore.ieee.org/document/8405547/">Input-to-State Safety With Control Barrier Functions</A>.</B>
 2019.
-<i>IEEE Control Systems Letters. Volume 3, Issue 1, Pages 108-113.</i>
+<I>IEEE Control Systems Letters. Volume 3, Issue 1, Pages 108-113.</I>
 </li>
-<p><a href="/pages/publications/journals/CBFU_color.pdf"><font color="red">.pdf</font></a>
-<a href="/pages/publications/journals/kolathaya18issfcbf.txt"><font color="green">.bib</font></a></p>
+<A HREF="/pages/publications/journals/CBFU_color.pdf"><font color="red">.pdf</font></A> 
+<A HREF="/pages/publications/journals/kolathaya18issfcbf.txt"><font color="green">.bib</font></A>
+-->
+<!--
 
-<h4 id="2-legged-locomotion">2. Legged locomotion</h4>
+#### 2. Legged locomotion
 
-<p>Please follow the lab webpage <a href="https://stochlab.github.io">Stochastic Robotics Lab</a> for a more up-to-date information. RBCCPS has a custom built four legged robot (quadruped) called the “Stoch”. The main goal is to explore reinforcement learning algorithms to achieve a wide variety of walking behaviours. The quadruped must be able to plan and navigate over a diverse set of environments like flat plains, undulating and slippery surfaces, and also muddy terrains.  This is in collaboration with Dr. Bharadwaj Amrutur, Dr. Shalabh Bhatnagar and Dr. Ashitava Ghosal in the centre. See videos below of our recent walking results!</p>
+Please follow the lab webpage [Stochastic Robotics Lab](https://stochlab.github.io) for a more up-to-date information. RBCCPS has a custom built four legged robot (quadruped) called the “Stoch”. The main goal is to explore reinforcement learning algorithms to achieve a wide variety of walking behaviours. The quadruped must be able to plan and navigate over a diverse set of environments like flat plains, undulating and slippery surfaces, and also muddy terrains.  This is in collaboration with Dr. Bharadwaj Amrutur, Dr. Shalabh Bhatnagar and Dr. Ashitava Ghosal in the centre. See videos below of our recent walking results! 
 
 <p></p>
-<iframe width="400" height="225" src="https://www.youtube.com/embed/swcStUm0Nuk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<iframe width="400" height="225" src="https://www.youtube.com/embed/swcStUm0Nuk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p></p>
 
 <p></p>
-<iframe width="400" height="225" src="https://www.youtube.com/embed/AxMeGESpuvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<iframe width="400" height="225" src="https://www.youtube.com/embed/AxMeGESpuvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p></p>
 
-<p>More details are in these papers:</p>
+
+More details are in these papers:
 <li>
-<b>S. Kolathaya</b> and A. Joglekar and S. Shetty and D. Dholakiya and Abhimanyu and A. Sagi and S. Bhattacharya and A. Singla and S. Bhatnagar and A. Ghoshal and B. Amrutur.<br />
-<b><a href="https://ieeexplore.ieee.org/document/8956369">Trajectory based Deep Policy Search for Quadrupedal Walking</a>.</b>
+<B>S. Kolathaya</B> and A. Joglekar and S. Shetty and D. Dholakiya and Abhimanyu and A. Sagi and S. Bhattacharya and A. Singla and S. Bhatnagar and A. Ghoshal and B. Amrutur.<br>
+<B><A HREF="https://ieeexplore.ieee.org/document/8956369">Trajectory based Deep Policy Search for Quadrupedal Walking</A>.</B>
 2019.
-<i>in 28th IEEE International Conference on Robot &amp; Human Interactive Communication (RO-MAN).</i>
+<I>in 28th IEEE International Conference on Robot & Human Interactive Communication (RO-MAN).</I>
 </li>
-<p><a href="/pages/publications/conferences/TrajectorySearch_Ro_Man.pdf"><font color="red">.pdf</font></a>
-<a href="/pages/publications/conferences/TrajectorySearch_Ro_Man.txt"><font color="green">.bib</font></a>
-<a href="https://youtu.be/AxMeGESpuvc"><font color="purple">.video</font></a></p>
+<A HREF="/pages/publications/conferences/TrajectorySearch_Ro_Man.pdf"><font color="red">.pdf</font></A> 
+<A HREF="/pages/publications/conferences/TrajectorySearch_Ro_Man.txt"><font color="green">.bib</font></A>
+<A HREF="https://youtu.be/AxMeGESpuvc"><font color="purple">.video</font></A>
 
 <li>
-S. Bhattacharya and A. Singla and Abhimanyu and D. Dholakiya and S. Bhatnagar and B. Amrutur and A. Ghosal and <b>S. Kolathaya</b>.<br />
-<b><a href="https://ieeexplore.ieee.org/document/8956332">Learning Active Spine Behaviors for Dynamic and Efficient Locomotion in Quadruped Robots</a>.</b>
+S. Bhattacharya and A. Singla and Abhimanyu and D. Dholakiya and S. Bhatnagar and B. Amrutur and A. Ghosal and <B>S. Kolathaya</B>.<br>
+<B><A HREF="https://ieeexplore.ieee.org/document/8956332">Learning Active Spine Behaviors for Dynamic and Efficient Locomotion in Quadruped Robots</A>.</B>
 2019.
-<i>in 28th IEEE International Conference on Robot &amp; Human Interactive Communication (RO-MAN).</i>
+<I>in 28th IEEE International Conference on Robot & Human Interactive Communication (RO-MAN).</I>
 </li>
-<p><a href="https://arxiv.org/pdf/1905.06077.pdf"><font color="red">.pdf</font></a>
-<a href="/pages/publications/conferences/activespine_Ro_Man.txt"><font color="green">.bib</font></a>
-<a href="https://youtu.be/INp4aa-8z2E"><font color="purple">.video</font></a></p>
+<A HREF="https://arxiv.org/pdf/1905.06077.pdf"><font color="red">.pdf</font></A> 
+<A HREF="/pages/publications/conferences/activespine_Ro_Man.txt"><font color="green">.bib</font></A>
+<A HREF="https://youtu.be/INp4aa-8z2E"><font color="purple">.video</font></A>
+
 
 <li>
-A. Singla and S. Bhattacharya and D. Dholakiya and S. Bhatnagar and A. Ghosal and B. Amrutur and <b>S. Kolathaya</b>.<br />
-<b><a href="https://ieeexplore.ieee.org/document/8794179/">Realizing Learned Quadruped Locomotion Behaviors through Kinematic Motion Primitives</a>.</b>
+A. Singla and S. Bhattacharya and D. Dholakiya and S. Bhatnagar and A. Ghosal and B. Amrutur and <B>S. Kolathaya</B>.<br>
+<B><A HREF="https://ieeexplore.ieee.org/document/8794179/">Realizing Learned Quadruped Locomotion Behaviors through Kinematic Motion Primitives</A>.</B>
 2019.
-<i>in IEEE International Conference on Robotics and Automation.</i>
+<I>in IEEE International Conference on Robotics and Automation.</I>
 </li>
-<p><a href="/pages/publications/conferences/singla_realizing_2019.pdf"><font color="red">.pdf</font></a>
-<a href="/pages/publications/conferences/singla_realizing_2019.txt"><font color="green">.bib</font></a>
-<a href="https://www.youtube.com/watch?v=kiLKSqI4KhE"><font color="purple">.video</font></a></p>
+<A HREF="/pages/publications/conferences/singla_realizing_2019.pdf"><font color="red">.pdf</font></A> 
+<A HREF="/pages/publications/conferences/singla_realizing_2019.txt"><font color="green">.bib</font></A>
+<A HREF="https://www.youtube.com/watch?v=kiLKSqI4KhE"><font color="purple">.video</font></A>
 
 <li>
-D. Dholakiya and S. Bhattacharya and A. Gunalan and A. Singla and  S. Bhatnagar and B. Amrutur and A. Ghosal and <b>S. Kolathaya</b>.<br />
-<b><a href="https://ieeexplore.ieee.org/document/8813480">Design, Development and Experimental Realization of a Quadrupedal Research Platform: Stoch
-</a>.</b>
+D. Dholakiya and S. Bhattacharya and A. Gunalan and A. Singla and  S. Bhatnagar and B. Amrutur and A. Ghosal and <B>S. Kolathaya</B>.<br>
+<B><A HREF="https://ieeexplore.ieee.org/document/8813480">Design, Development and Experimental Realization of a Quadrupedal Research Platform: Stoch
+</A>.</B>
 2019.
-<i>in IEEE International Conference on Control, Automation and Robotics. ISSN: 2251-2446</i>
+<I>in IEEE International Conference on Control, Automation and Robotics. ISSN: 2251-2446</I>
 </li>
-<p><a href="https://arxiv.org/pdf/1901.00697.pdf"><font color="red">.pdf</font></a>
-<a href="/pages/publications/conferences/stoch_iccar_2019.txt"><font color="green">.bib</font></a>
-<a href="https://youtu.be/Wxx9pwwTIL4"><font color="purple">.video</font></a></p>
+<A HREF="https://arxiv.org/pdf/1901.00697.pdf"><font color="red">.pdf</font></A> 
+<A HREF="/pages/publications/conferences/stoch_iccar_2019.txt"><font color="green">.bib</font></A>
+<A HREF="https://youtu.be/Wxx9pwwTIL4"><font color="purple">.video</font></A>
 
+-->
 <!-----
 ---
 ---
@@ -207,9 +165,7 @@ I am looking to extend it for various other robotic platforms and also develop n
 </article>
 
       </div>
-    </main>
-
-    <footer class="site-footer">
+    </main><footer class="site-footer">
 
   <div class="wrapper">
     <div class="footer-col-wrapper">
@@ -220,8 +176,6 @@ I am looking to extend it for various other robotic platforms and also develop n
 
   </div>
 </footer>
-
-
-  </body>
+</body>
 
 </html>

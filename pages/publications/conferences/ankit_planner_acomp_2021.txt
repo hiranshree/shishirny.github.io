@@ -1,0 +1,10 @@
+@INPROCEEDINGS{9668215,
+  author={Ankit, Kumar and Kolathaya, Shishir N.Y. and Ghose, Debasish},
+  booktitle={2021 15th International Conference on Advanced Computing and Applications (ACOMP)}, 
+  title={Multi-Agent Collaborative Framework for Automated Agriculture}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={30-37},
+  doi={10.1109/ACOMP53746.2021.00011}}
+
